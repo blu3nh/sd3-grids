@@ -1,0 +1,32 @@
+{
+  "axes": [
+    {
+      "mode": "seed",
+      "values": "1,2,3,4"
+    },
+    {
+      "mode": "cfgscale",
+      "values": "3,5,7,9,11"
+    },
+    {
+      "mode": "steps",
+      "values": "15,20,25,30,50,75,100"
+    },
+    {
+      "mode": "sdtextencs",
+      "values": "CLIP Only, T5 Only, CLIP + T5"
+    }
+  ],
+  "checkboxes": {
+    "grid-gen-opt-do-overwrite": false,
+    "grid-gen-opt-fast-skip": false,
+    "grid-gen-opt-generate-page": true,
+    "grid-gen-opt-publish-metadata": true,
+    "grid-gen-opt-dry-run": false,
+    "grid-gen-opt-weight-order": true,
+    "grid-gen-opt-continue-on-error": false,
+    "grid-gen-opt-show-outputs": true
+  },
+  "output_folder_name": "grid-[date]-[time]",
+  "output_type": "Web Page"
+}
